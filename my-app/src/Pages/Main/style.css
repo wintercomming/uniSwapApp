@@ -1,0 +1,91 @@
+input {
+    background: none;
+    outline: none;
+    border: 0px;
+  }
+  
+  .App {
+    background: rgb(19, 26, 42);
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .App-box {
+    min-width: 464px;
+    min-height: 392px;
+    background: rgb(13, 17, 28);
+    border: 1px solid rgb(27, 34, 54);
+    padding: 8px;
+    border-radius: 16px;
+    position: relative;
+  }
+  
+  .App-box-header {
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 40px;
+  }
+  
+  .App-box-item {
+    width: 100%;
+    background-color: rgb(19, 26, 42);
+    border-radius: 12px;
+    color: rgb(152, 161, 192);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  .App-box-item:nth-child(2) {
+    height: 100px;
+  }
+  
+  .App-box-item:nth-child(3) {
+    margin-top: 5px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .App-box-btn {
+    width: 100%;
+    height: 60px;
+  }
+  
+  .App-box-input {
+    background-color: rgb(19, 26, 42);
+    width: 277px;
+    height: 44px;
+    color: #fff;
+    text-align: left;
+    font-size: 36px;
+    line-height: 44px;
+    transition: opacity 0.2s ease-in-out 0s;
+    font-variant: small-caps;
+  }
+  
+  .App-box-switch {
+    border-radius: 12px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(41, 50, 73);
+    border: 4px solid rgb(13, 17, 28);
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left:50%;
+    transform: translate(-50%);
+    cursor: pointer;
+    color: #fff;
+    top: 130px;
+  }
+  
