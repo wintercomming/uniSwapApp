@@ -1,0 +1,20 @@
+.dialog-item {
+  width: 386px;
+  height: 62px;
+  background-color: rgb(41, 50, 73);
+  border: 1px solid transparent;
+  border-radius: 12px;
+  margin: 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.dialog-item:disabled {
+    cursor:not-allowed;
+    background-color:#ADADAD;
+}
+
+.connect-dialog {
+    padding: 8px;
+}
